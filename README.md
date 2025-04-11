@@ -1,5 +1,7 @@
 # Project Setup and Testing Guide
 
+## [LIVE DEMO](https://instastory-git-insta-story-initia-584af4-palash-kumars-projects.vercel.app/)
+
 ## Setup React Application
 
 ### Prerequisites
@@ -35,7 +37,6 @@
 4. The application will be available at `http://localhost:5173`
 
 ## Running Cypress Tests
-
 
 ### Opening Cypress Test Runner
 
