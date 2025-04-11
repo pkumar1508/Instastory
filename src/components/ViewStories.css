@@ -1,0 +1,148 @@
+.story-viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.story-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.story-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.story-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.progress-bar-container {
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  margin: 0 2px;
+  flex: 1;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
+  transition: width 0.1s linear;
+}
+
+.story-user-info {
+  display: flex;
+  align-items: center;
+}
+
+.story-user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+  border: 2px solid white;
+}
+
+.story-username {
+  font-weight: bold;
+  font-size: 14px;
+  color: white !important;
+}
+
+.story-timestamp {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.transitioning-right {
+  animation: slide-out-left 0.3s forwards;
+}
+
+.transitioning-left {
+  animation: slide-out-right 0.3s forwards;
+}
+
+@keyframes slide-out-left {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-out-right {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
