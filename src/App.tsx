@@ -20,7 +20,8 @@ const App: React.FC = () => {
     setActiveUserIndex(null);
   };
 
-  const handleStoryViewed = (userIndex: number, 
+  const handleStoryViewed = (
+    userIndex: number
     // storyIndex: number
   ) => {
     const updatedUsers = [...users];
@@ -30,9 +31,9 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <header  data-tid="insta-header" className="app-header">
+      <header data-tid="insta-header" className="app-header">
         <img
-          src={"public/images/insta-logo.png"}
+          src={"/images/insta-logo.png"}
           alt="Story"
           className="logo-image"
           data-tid="insta-logo"
