@@ -30,11 +30,12 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <header className="app-header">
+      <header  data-tid="insta-header" className="app-header">
         <img
           src={"public/images/insta-logo.png"}
           alt="Story"
           className="logo-image"
+          data-tid="insta-logo"
         />
       </header>
       <main>

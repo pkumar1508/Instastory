@@ -12,10 +12,11 @@ const CircleStoriess: React.FC<CircleStoriessProps> = ({
   onUserClick,
 }) => {
   return (
-    <div className="story-circles-container">
+    <div  data-tid="insta-story-grid" className="story-circles-container">
       <div className="story-circles">
         {users.map((user, index) => (
           <div
+          data-tid="insta-story-circle"
             key={index}
             className="story-circle"
             onClick={() => onUserClick(index)}
@@ -29,9 +30,10 @@ const CircleStoriess: React.FC<CircleStoriessProps> = ({
                 src={user.userImage}
                 alt={user.username}
                 className="story-circle-image"
+                data-tid="insta-story-userimage"
               />
             </div>
-            <span className="story-username-1">{user.username}</span>
+            <span data-tid="insta-story-username" className="story-username-1">{user.username}</span>
           </div>
         ))}
       </div>

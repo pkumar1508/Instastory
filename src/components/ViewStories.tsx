@@ -130,8 +130,9 @@ const ViewStories: React.FC<ViewStoriesProps> = ({
   };
 
   return (
-    <div className="story-viewer">
+    <div className="story-viewer" data-tid="insta-story-preview">
       <div
+        data-tid="insta-story-container"
         className={`story-container ${
           isUserTransitioning ? `transitioning-${transitionDirection}` : ""
         }`}
@@ -168,14 +169,21 @@ const ViewStories: React.FC<ViewStoriesProps> = ({
                 className="story-user-image"
               />
               <span className="story-username">{currentUser.username}</span>
-              <span className="story-timestamp">
+              <span
+                className="story-timestamp"
+                data-tid="insta-story-timestamp"
+              >
                 {new Date().toLocaleTimeString([], {
                   hour: "2-digit",
                   minute: "2-digit",
                 })}
               </span>
             </div>
-            <button className="close-button" onClick={onClose}>
+            <button
+              data-tid="insta-story-closebutton"
+              className="close-button"
+              onClick={onClose}
+            >
               ×
             </button>
           </div>

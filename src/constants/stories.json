@@ -1,7 +1,7 @@
 [
   {
-    "id": "1",
-    "username": "your_story",
+    "id": "0",
+    "username": "Your Story",
     "userImage": "public/images/palash.jpg",
     "storyViewed": false,
     "stories": [
@@ -24,8 +24,8 @@
   },
   {
     "id": "1",
-    "username": "palash_k",
-    "userImage": "public/images/palash.jpg",
+    "username": "piyush_s",
+    "userImage": "public/images/people-2.jpg",
     "storyViewed": false,
     "stories": [
       {
