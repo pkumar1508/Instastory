@@ -2,22 +2,22 @@
   {
     "id": "0",
     "username": "Your Story",
-    "userImage": "public/images/palash.jpg",
+    "userImage": "/images/palash.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/magic-1.jpg",
+        "imageUrl": "/images/magic-1.jpg",
         "timestamp": "Date.now() - 7200000"
       },
       {
         "id": "s2",
-        "imageUrl": "public/images/magic-2.jpg",
+        "imageUrl": "/images/magic-2.jpg",
         "timestamp": "Date.now() - 5400000"
       },
       {
         "id": "s3",
-        "imageUrl": "public/images/magic-3.jpg",
+        "imageUrl": "/images/magic-3.jpg",
         "timestamp": "Date.now() - 3600000"
       }
     ]
@@ -25,22 +25,22 @@
   {
     "id": "1",
     "username": "piyush_s",
-    "userImage": "public/images/people-2.jpg",
+    "userImage": "/images/people-2.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/magic-1.jpg",
+        "imageUrl": "/images/magic-1.jpg",
         "timestamp": "Date.now() - 7200000"
       },
       {
         "id": "s2",
-        "imageUrl": "public/images/magic-2.jpg",
+        "imageUrl": "/images/magic-2.jpg",
         "timestamp": "Date.now() - 5400000"
       },
       {
         "id": "s3",
-        "imageUrl": "public/images/magic-3.jpg",
+        "imageUrl": "/images/magic-3.jpg",
         "timestamp": "Date.now() - 3600000"
       }
     ]
@@ -48,22 +48,22 @@
   {
     "id": "2",
     "username": "rajvardhan_s",
-    "userImage": "public/images/rajvardhan.jpg",
+    "userImage": "/images/rajvardhan.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/animal-3.jpg",
+        "imageUrl": "/images/animal-3.jpg",
         "timestamp": "Date.now() - 7200000"
       },
       {
         "id": "s2",
-        "imageUrl": "public/images/animal-2.jpg",
+        "imageUrl": "/images/animal-2.jpg",
         "timestamp": "Date.now() - 5400000"
       },
       {
         "id": "s5",
-        "imageUrl": "public/images/animal-3.jpg",
+        "imageUrl": "/images/animal-3.jpg",
         "timestamp": "Date.now() - 3600000"
       }
     ]
@@ -71,27 +71,27 @@
   {
     "id": "3",
     "username": "emma_120",
-    "userImage": "public/images/profile-1.jpg",
+    "userImage": "/images/profile-1.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/nature-1.jpg",
+        "imageUrl": "/images/nature-1.jpg",
         "timestamp": " Date.now() - 3600000 * 2"
       },
       {
         "id": "s2",
-        "imageUrl": "public/images/nature-2.jpg",
+        "imageUrl": "/images/nature-2.jpg",
         "timestamp": "Date.now() - 3600000"
       },
       {
         "id": "s3",
-        "imageUrl": "public/images/nature-3.jpg",
+        "imageUrl": "/images/nature-3.jpg",
         "timestamp": " Date.now() - 3600000 * 2"
       },
       {
         "id": "s4",
-        "imageUrl": "public/images/nature-4.jpg",
+        "imageUrl": "/images/nature-4.jpg",
         "timestamp": "Date.now() - 3600000"
       }
     ]
@@ -99,22 +99,22 @@
   {
     "id": "4",
     "username": "luna_yu",
-    "userImage": "public/images/profile-4.jpg",
+    "userImage": "/images/profile-4.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/animal-1.jpg",
+        "imageUrl": "/images/animal-1.jpg",
         "timestamp": "Date.now() - 7200000"
       },
       {
         "id": "s2",
-        "imageUrl": "public/images/animal-2.jpg",
+        "imageUrl": "/images/animal-2.jpg",
         "timestamp": "Date.now() - 5400000"
       },
       {
         "id": "s3",
-        "imageUrl": "public/images/animal-3.jpg",
+        "imageUrl": "/images/animal-3.jpg",
         "timestamp": "Date.now() - 3600000"
       }
     ]
@@ -123,12 +123,12 @@
   {
     "id": "5",
     "username": "sophia",
-    "userImage": "public/images/profile-5.jpg",
+    "userImage": "/images/profile-5.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/nature-1.jpg",
+        "imageUrl": "/images/nature-1.jpg",
         "timestamp": " Date.now() - 1800000"
       }
     ]
@@ -136,12 +136,12 @@
   {
     "id": "6",
     "username": "flora-mu",
-    "userImage": "public/images/profile-2.jpg",
+    "userImage": "/images/profile-2.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/nature-1.jpg",
+        "imageUrl": "/images/nature-1.jpg",
         "timestamp": " Date.now() - 1800000"
       }
     ]
@@ -149,12 +149,12 @@
   {
     "id": "7",
     "username": "elizabeth",
-    "userImage": "public/images/profile-3.jpg",
+    "userImage": "/images/profile-3.jpg",
     "storyViewed": false,
     "stories": [
       {
         "id": "s1",
-        "imageUrl": "public/images/nature-2.jpg",
+        "imageUrl": "/images/nature-2.jpg",
         "timestamp": " Date.now() - 1800000"
       }
     ]
